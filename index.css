@@ -10,14 +10,33 @@
 
 body {
     width: 100vw;
+    height: 200vh;
 }
+
+body::-webkit-scrollbar {
+    width: 20px;
+    height: 100%;
+    background-color: #30343F; /* Set the background color of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FF4848; /* Set the color of the scrollbar thumb */
+    border-radius: 15px; /* Round the corners of the scrollbar thumb */
+}
+
+body::-webkit-scrollbar-thumb:horizontal {
+    display: none; /* Hide the vertical scrollbar thumb */
+}
+
+
+/****************************************************************************************************/
 
 nav {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     background-color: #30343F;
-    padding: 50px 25px 50px 110px;
+    padding: 50px 75px 50px 70px;
 }
 
 .navbar {
@@ -43,4 +62,39 @@ nav {
 
 .cart-icon {
     width: 32px;
+}
+
+/****************************************************************************************************/
+
+.hero-container {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.534)), url(./assets/background/funkos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.hero-title-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+}
+
+.hero-title {
+    width: 15em;
+    padding-bottom: 0.9em;
+}
+
+.hero-btn {
+    margin-top: 2.5em;
+    margin-left: 4em;
+}
+
+.hero-subtitle {
+    width: 25em;
 }
