@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #30343F;
+    padding: 50px 25px 50px 110px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text {
+    font-weight: 500;
+    line-height: 23.48px;
+    color: #FFFFFF;
+}
+
+.navbar-link {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.shop-icon {
+    padding: 0 3px;
+}
+
+.cart-icon {
+    width: 32px;
+}
