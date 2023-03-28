@@ -10,7 +10,6 @@
 
 body {
     width: 100vw;
-    height: 200vh;
 }
 
 body::-webkit-scrollbar {
@@ -97,4 +96,31 @@ nav {
 
 .hero-subtitle {
     width: 25em;
+}
+
+/****************************************************************************************************/
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10em 0 12em;
+}
+
+.info-container-active {
+    padding: 0 7em 0 0;
+    justify-content: flex-start;
+}
+
+/****************************************************************************************************/
+
+.releases-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.releases-title {
+    padding-left: 5em;
+    width: 33em;
 }
