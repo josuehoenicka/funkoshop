@@ -82,12 +82,18 @@ nav {
 .hero-title-container {
     display: flex;
     flex-direction: column;
-    padding-left: 4em;
+    padding-left: 6em;
 }
 
 .hero-title {
-    width: 15em;
-    padding-bottom: 0.9em;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-bottom: 0.25em;
+}
+
+.hero-btn-container {
+    padding-left: 2em;
 }
 
 .hero-btn {
@@ -96,7 +102,8 @@ nav {
 }
 
 .hero-subtitle {
-    width: 25em;
+    color: #FFFFFF;
+    font-size: 1.2em;
 }
 
 /****************************************************************************************************/
