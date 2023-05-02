@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+aside {
+    background-color: red;
+}
+
+section {
+    background-color: blue;
+}
