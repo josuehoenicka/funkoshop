@@ -1,12 +1,20 @@
 main {
+    height: 100%;
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 3fr 4fr;
 }
 
 aside {
-    background-color: red;
 }
 
 section {
-    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/****************************************************************************************************/
+
+.realeses-img {
+    width: 23em;
 }
