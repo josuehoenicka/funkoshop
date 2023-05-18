@@ -2,13 +2,13 @@ function saludar(name){
     return `Hola ${name}`;
 }
 
-function saludarMundo(){
-    return `Hola Mundo`;
+function saludarJosue(){
+    return `Hola Josue`;
 }
 
 module.exports = {
     saludar: saludar,
-    saludarMundo: saludarMundo
+    saludarJosue: saludarJosue
 }
 
 // module.exports.saludar = saludar;
