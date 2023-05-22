@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="charmander-1.webp">
     <link rel="stylesheet" href="../../styles/index.css">
-    <link rel="stylesheet" href="../../styles/shop.css">
+    <link rel="stylesheet" href="../../styles/admin.css">
     <title>Josue Hoenicka's FunkShop</title>
 </head>
 <body>
@@ -20,23 +20,33 @@
         </div>
     </nav>
     <main>
-        <h2>CREA TU CUENTA</h2>
-        <h4>Completa el formulario para ser parte del mundo de los Funkos</h4>
-        <form action="">
-            <label for="name_register">Nombre:</label>
-            <input type="text" placeholder="Josue" id="name_register">
-            <label for="lastname_register">Apellido:</label>
-            <input type="text" placeholder="Hoenicka" id="lastname_register">
-            <label for="password_register">Contraseña:</label>
-            <label for="email_register">Email:</label>
-            <input type="text" placeholder="josuehoenicka@gmail.com" id="email_register">
-            <label for="password_register">Contraseña:</label>
-            <input type="text" placeholder="* * * * * * * *" id="password_register">
-            <label for="repassword_register">Repetir contraseña:</label>
-            <input type="text" placeholder="* * * * * * * *" id="repassword_register">
-            <div>
-                <button>Ingresar</button>
-                <input type="checkbox"> Acepto <a href="">términos y condiciones</a> 
+        <h2 class="title-admin-template">CREA TU CUENTA</h2>
+        <h4 class="subtitle-admin-template">Completa el formulario para ser parte del mundo de los Funkos</h4>
+        <form action="" class="form-admin-template">
+            <div class="container-admin-template">
+                <label for="name_register">Nombre:</label>
+                <input type="text" placeholder="Josue" id="name_register">
+            </div>
+            <div class="container-admin-template">
+                <label for="lastname_register">Apellido:</label>
+                <input type="text" placeholder="Hoenicka" id="lastname_register">
+            </div>
+            <div class="container-admin-template">
+                <label for="email_register">Email:</label>
+                <input type="text" placeholder="josuehoenicka@gmail.com" id="email_register">
+            </div>
+            <div class="container-admin-template">
+                <label for="password_register">Contraseña:</label>
+                <input type="text" placeholder="* * * * * * * *" id="password_register">
+            </div>
+            <div class="container-admin-template">
+                <label for="repassword_register">Repetir contraseña:</label>
+                <input type="text" placeholder="* * * * * * * *" id="repassword_register">
+            </div>
+            <div class="secondary-container-admin-template">
+                <button class="btn-register">Registrarse</button>
+                <input type="checkbox" id="input-register"> 
+                <label for="input-register">Acepto <a href="" class="btn-conditions">términos y condiciones</a></label> 
             </div>
         </form>
     </main>

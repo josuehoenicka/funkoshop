@@ -7,13 +7,10 @@ main {
     margin-top: 1.5em;
 }
 
-.form-admin-template {
-    margin: .5em 0;
-}
+/* containers */ 
 
-.title-admin-template {
-    font-size: 2em;
-    margin-bottom: .5em;
+.form-admin-template {
+    margin: 1em 0;
 }
 
 .container-admin-template { 
@@ -21,6 +18,30 @@ main {
     justify-content: space-between;
     padding: .5em 0;
 }
+
+.secondary-container-admin-template, .third-container-admin-template {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+.third-container-admin-template {
+    flex-direction: column;
+}
+
+/* titles */
+
+.title-admin-template {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.subtitle-admin-template {
+    font-size: 1.3em;
+    margin-bottom: .55em;
+}
+
+/* inputs */ 
 
 .container-admin-template input {
     border: none;
@@ -32,26 +53,25 @@ main {
     text-align: left;
 }
 
+.secondary-container-admin-template input {
+    margin: 0 .5em 0 2em;
+}
+
+/* labels */
+
 .container-admin-template label {
     font-size: 1.3em;
 }
 
-.secondary-container-admin-template input {
-    margin: 0 .5em 0 2em;
-}
 
 .secondary-container-admin-template label {
     padding: .5em 0; /* btn-login */
     font-size: 1.2em;
 }
 
-.secondary-container-admin-template, .third-container-admin-template {
-    display: flex;
-    justify-content: center;
-    margin: 1.5em 0;
-}
+/* buttons */
 
-.btn-login {
+.btn-login, .btn-register {
     border: none;
     outline: none;
     padding: .5em 1.5em; /* secondary-container-admin-template label */
@@ -60,10 +80,15 @@ main {
     font-size: 1.1em;
 }
 
-.btn-forget {
+.btn-forget, .btn-conditions, .btn-create {
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 1em;
     color: #006eff;
 }
+
+.btn-create {
+    color: #ff0000;
+    margin: 1.3em 0;
+} 
