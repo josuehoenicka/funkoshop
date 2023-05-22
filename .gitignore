@@ -1,0 +1,4 @@
+# test 
+./data/test/node_modules
+./data/test/package-lock.json
+./data/test/package.json
