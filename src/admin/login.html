@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="charmander-1.webp">
     <link rel="stylesheet" href="../../styles/index.css">
-    <link rel="stylesheet" href="../../styles/shop.css">
+    <link rel="stylesheet" href="../../styles/admin.css">
     <title>Josue Hoenicka's FunkShop</title>
 </head>
 <body>
@@ -20,18 +20,23 @@
         </div>
     </nav>
     <main>
-        <h2>INGRESAR A MI CUENTA</h2>
-        <form action="">
-            <label for="email_login">Email:</label>
-            <input type="text" placeholder="josuehoenicka@gmail.com" id="email_login">
-            <label for="password_login">Contraseña:</label>
-            <input type="text" placeholder="* * * * * * * *" id="password_login">
-            <div>
-                <button>Ingresar</button>
-                <input type="checkbox"> Recordarme
+        <h2 class="title-admin-template">INGRESAR A MI CUENTA</h2>
+        <form action="" class="form-admin-template">
+            <div class="container-admin-template">
+                <label for="email_login">Email:</label>
+                <input type="text" placeholder="josuehoenicka@gmail.com" id="email_login">
             </div>
-            <div>
-                <button>Olvidé mi contraseña</button>
+            <div class="container-admin-template">
+                <label for="password_login">Contraseña:</label>
+                <input type="password" placeholder="* * * * * * * *" id="password_login">
+            </div>
+            <div class="secondary-container-admin-template">
+                <button class="btn-login">Ingresar</button>
+                <input type="checkbox" id="input-remember">
+                <label for="input-remember" id="label-remember">Recordarme</label>
+            </div>
+            <div class="third-container-admin-template">
+                <button class="btn-forget">Olvidé mi contraseña</button>
             </div>
         </form>
     </main>

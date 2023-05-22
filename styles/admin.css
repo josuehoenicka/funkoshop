@@ -1,0 +1,69 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    margin-top: 1.5em;
+}
+
+.form-admin-template {
+    margin: .5em 0;
+}
+
+.title-admin-template {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.container-admin-template { 
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 0;
+}
+
+.container-admin-template input {
+    border: none;
+    outline: none;
+    margin-left: 2em;
+    border-bottom: .15em red solid;
+    width: 18vw;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.container-admin-template label {
+    font-size: 1.3em;
+}
+
+.secondary-container-admin-template input {
+    margin: 0 .5em 0 2em;
+}
+
+.secondary-container-admin-template label {
+    padding: .5em 0; /* btn-login */
+    font-size: 1.2em;
+}
+
+.secondary-container-admin-template, .third-container-admin-template {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+.btn-login {
+    border: none;
+    outline: none;
+    padding: .5em 1.5em; /* secondary-container-admin-template label */
+    background-color: red;
+    color: white;
+    font-size: 1.1em;
+}
+
+.btn-forget {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #006eff;
+}
