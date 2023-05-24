@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Import & Export
-const {saludar, saludarJosue} = require('./saludos.js')
+const {saludar, saludarJosue} = require('./data/saludos.js')
 console.log(saludos.saludar('Josue'));
 console.log(saludar("Josue"));
 console.log(saludarJosue());
