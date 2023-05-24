@@ -1,0 +1,69 @@
+main {
+  justify-content: center;
+  width: 100vw;
+}
+
+/* containers */
+
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 7em;
+  margin-top: 1.5em;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7em;
+  margin: 1.5em 0;
+}
+
+.add-container {
+  display: flex;
+  align-items: center;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr 3fr 1fr 1fr;
+  padding: .5em 7em;
+}
+
+/* inputs */
+
+.search-container input {
+  margin-left: 1em;
+  padding: 0 19em 0 1em;
+}
+
+/* icons */
+
+.add-container button {
+  font-size: 2em;
+  margin-left: .7em;
+  padding: 0 .5em;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+
+/* text */
+
+.title-container h2, .add-container h4 {
+  font-size: 2em;
+  font-family: 'Inter';
+  font-weight: bolder;
+}
+
+.add-container h4 {
+  font-size: 1.4em;
+}
+
+.item-text {
+  font-family: 'Inter', monospace;
+  font-weight: 400;
+}
